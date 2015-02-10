@@ -82,6 +82,15 @@ INSTALLED_APPS = (
 )
 ```
 
+If you are using Python 3.x, point to a Python 2.7 binary
+for django-node to use during npm package installation:
+
+```python
+DJANGO_NODE = {
+    'NPM_INSTALL_PATH_TO_PYTHON': '/usr/bin/python2.7',
+}
+```
+
 ReactComponent
 --------------
 
